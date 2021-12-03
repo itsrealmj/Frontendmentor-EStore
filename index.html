@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/modal.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | E-commerce product page</title>
+</head>
+<body>
+  <!-- modal -->
+<div class="cart-modal-bg">
+  <div class="cart-modal">
+    <div class="title">
+      <span>Cart</span>
+    </div> 
+    <div class="parag">
+      <img src="./images/image-product-1.jpg" class="item" alt="">
+      <div>
+        <p>Autumn Limited Edition</p>
+        <p>1234</p>
+      </div>
+      <i> <img id="trash" src="./images/icon-delete.svg" width="18px" alt=""></i>
+    </div>
+    <div class="check-out-btn">
+      <button>Check out</button>
+    </div>
+    
+    <div class="parag">
+      <img src="./images/image-product-1.jpg" class="item" id="sudlanan" alt="">
+      <div>
+        <p class="details">Autumn Limited Edition</p>
+        <p>1234</p>
+      </div>
+      <i> <img src="./images/icon-delete.svg" width="18px" alt=""></i>
+    </div>
+    <div class="check-out-btn">
+      <button>Check out</button>
+    </div>
+  </div>
+
+  <div id="sample"> </div>
+</div>
+  <!-- modal end -->
+
+  <header>
+    <div class="header-top">
+      <div class="col-1">
+          <div  ><img id="menu" src="./images/icon-menu.svg" alt="menu"> <img id="xxx" style="display: none;" src="./images/icon-cart.svg" alt=""></div>
+          <div><h3>sneakers</h3></div>
+            <ul class="nav-ul">
+              <li><a href="">Collections</a></li>
+              <li><a href="">Men</a></li>
+              <li><a href="">Women</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+      </div>
+      <div class="col-2">
+        <img id="cart-img" src="./images/icon-cart.svg" alt="addToCart">
+        <img id="user-logo" src="./images/image-avatar.png" width="20px" alt="user-Logo">
+      </div>
+    </div>
+    <!-- <hr> -->
+  </header>
+  
+  <section>
+    <div class="product-container">
+      <img src="./images/icon-previous.svg" id="prev" alt="">
+      <img src="./images/image-product-1.jpg" id="item" width="100%" alt="display-image">
+      <img src="./images/icon-next.svg" id="next" alt="">
+
+      <div class="small-images">
+          <img src="./images/image-product-1.jpg" class="small" width= "50px"alt="">
+          <img src="./images/image-product-2.jpg" class="small" width= "50px"alt="">
+          <img src="./images/image-product-3.jpg" class="small" width= "50px"alt="">
+          <img src="./images/image-product-4.jpg" class="small" width= "50px"alt="">
+      </div>
+    </div>
+
+    <div class="product-details">
+      <h5>SNEAKER COMPANY</h5>
+      <h2>Fall Limited Edition Sneakers</h2>
+      <p>These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer 
+        sole, they'll withstand everything the weather can offer.
+      </p>
+      <div class="product-price">
+        <div>
+          <h2>$125.00</h2>
+          <span id="discount">50%</span> 
+        </div>
+        <span id="orig-price">$250.00</span>
+      </div>
+      <div class="quantity-section">
+        <div class="product-quantity"> 
+          <i> <img src="./images/icon-minus.svg" alt=""></i>
+          <span> 0 </span>
+          <i> <img src="./images/icon-plus.svg" alt=""></i>
+        </div>
+        <div class="add-To-Cart-Btn">
+          <span class="btn">Add to cart</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  <br>
+  <br>
+  <br>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">MN Nacional</a>.
+  </div>
+  <script src="./js/app.js"></script>
+</body>
+</html>
