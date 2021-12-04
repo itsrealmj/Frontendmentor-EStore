@@ -10,9 +10,7 @@
   <title>Frontend Mentor | E-commerce product page</title>
 </head>
 <body>
-  
-
-  <!-- Messenger Chat Plugin Code -->
+    <!-- Messenger Chat Plugin Code -->
     <div id="fb-root"></div>
 
     <!-- Your Chat Plugin code -->
@@ -40,8 +38,8 @@
       }(document, 'script', 'facebook-jssdk'));
   </script>
 <!--   Messenger Chat Plugin Code end  -->
-  
-  
+
+  <!-- modal -->
 <div class="cart-modal-bg">
   <div class="cart-modal">
     <div class="title">
@@ -53,34 +51,44 @@
         <p>Autumn Limited Edition</p>
         <p>1234</p>
       </div>
+      <i> <img id="trash" src="./images/icon-delete.svg" width="18px" alt=""></i>
+    </div>
+    <div class="check-out-btn">
+      <button>Check out</button>
+    </div>
+    
+    <div class="parag">
+      <img src="./images/image-product-1.jpg" class="item" id="sudlanan" alt="">
+      <div>
+        <p class="details">Autumn Limited Edition</p>
+        <p>1234</p>
+      </div>
       <i> <img src="./images/icon-delete.svg" width="18px" alt=""></i>
     </div>
     <div class="check-out-btn">
       <button>Check out</button>
-    </div> 
+    </div>
   </div>
+
+  <div id="sample"> </div>
 </div>
-
-
-
+  <!-- modal end -->
 
   <header>
     <div class="header-top">
       <div class="col-1">
-          <div><img id="menu" src="./images/icon-menu.svg" alt="menu"></div>
+          <div  ><img id="menu" src="./images/icon-menu.svg" alt="menu"> <img id="xxx" style="display: none;" src="./images/cancel.svg" alt="cancel button" width="25px"></div>
           <div><h3>sneakers</h3></div>
-          <ul class="nav-ul">
-            <div class="closed-nav">X </div>
-            <li><a href="">Collections</a></li>
-            <li><a href="">Men</a></li>
-            <li><a href="">Women</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
-          </ul>
-
+            <ul class="nav-ul">
+              <li><a href="">Collections</a></li>
+              <li><a href="">Men</a></li>
+              <li><a href="">Women</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
       </div>
       <div class="col-2">
-        <img id="cart-img" src="./images/icon-cart.svg" alt="addToCart" width="17px" height="17px">
+        <img id="cart-img" src="./images/icon-cart.svg" alt="addToCart">
         <img id="user-logo" src="./images/image-avatar.png" width="20px" alt="user-Logo">
       </div>
     </div>
