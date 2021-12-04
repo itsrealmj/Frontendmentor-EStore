@@ -17,9 +17,10 @@
     right: 6%;
     width: 90vw;
     z-index: 2;
-    background-color: white;
     border-radius: 10px;
     display: none;
+    background-color: whitesmoke;
+    z-index: 6;
 }
 .cart-modal .title {
     padding: 1rem 1.3rem;
